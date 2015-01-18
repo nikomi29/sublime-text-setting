@@ -1,0 +1,64 @@
+[
+      // F3で関数の宣言元にジャンプ
+    { "keys": ["f12"], "command": "goto_definition" },
+    // alt+左で戻る
+    { "keys": ["alt+left"], "command": "jump_back" },
+    // alt+右で戻ったのをまた進める
+    { "keys": ["alt+right"], "command": "jump_forward" },
+
+    // {
+    //     "button": "button1", 
+    //     "count": 1, 
+    //     "modifiers": ["ctrl","alt"],
+    //     "press_command": "drag_select",
+    //     "command": "goto_definition"
+    // },
+  { "keys": ["ctrl+shift+c"], "command": "color_pick" },
+  // Go to left bracket
+  {
+      "keys": ["alt+up"],
+      "command": "bh_key",
+      "args":
+      {
+          "lines" : true,
+          "plugin":
+          {
+              "type": ["__all__"],
+              "command": "bh_modules.bracketselect",
+              "args": {"select": "left"}
+          }
+      }
+  },
+  // Go to right bracket
+  {
+      "keys": ["alt+down"],
+      "command": "bh_key",
+      "args":
+      {
+          "lines" : true,
+          "plugin":
+          {
+              "type": ["__all__"],
+              "command": "bh_modules.bracketselect",
+              "args": {"select": "right"}
+          }
+      }
+  },
+  { "keys": ["ctrl+@"], "command": "show_panel", "args": {"panel": "console", "toggle": true} },
+
+  // auto_match_enabled in grave accent
+  // @see http://stackoverflow.com/questions/16341135/modify-auto-match-of-quotes-adding-an-additional-quoting-character-to-sublime-t/16346444#16346444
+  { "keys": ["`"], "command": "insert_snippet", "args": {"contents": "`${0:$SELECTION}`"}, "context":
+      [
+          { "key": "setting.auto_match_enabled", "operator": "equal", "operand": true },
+          { "key": "selection_empty", "operator": "equal", "operand": false, "match_all": true }
+      ]
+  },
+  { "keys": ["`"], "command": "move", "args": {"by": "characters", "forward": true}, "context":
+      [
+          { "key": "setting.auto_match_enabled", "operator": "equal", "operand": true },
+          { "key": "selection_empty", "operator": "equal", "operand": true, "match_all": true },
+          { "key": "following_text", "operator": "regex_contains", "operand": "^`", "match_all": true }
+      ]
+  },
+]

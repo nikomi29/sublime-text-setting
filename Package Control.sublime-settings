@@ -1,0 +1,49 @@
+{
+	"in_process_packages":
+	[
+	],
+	"installed_dependencies":
+	[
+		"0_package_control_loader",
+		"bz2",
+		"ssl-linux"
+	],
+	"installed_packages":
+	[
+		"BoundKeys",
+		"BracketHighlighter",
+		"Codecs33",
+		"CodeFormatter",
+		"Color Highlighter",
+		"ColorPicker",
+		"ConvertToUTF8",
+		"DocBlockr",
+		"Emmet",
+		"HTML5",
+		"HTMLAttributes",
+		"Insert Nums",
+		"JsFormat",
+		"More Layouts",
+		"OmniMarkupPreviewer",
+		"Package Control",
+		"Pretty JSON",
+		"SideBarEnhancements",
+		"SimpleClone",
+		"Smart Delete",
+		"SublimeCodeIntel",
+		"SublimeGit",
+		"SublimeLinter",
+		"SublimeLinter-jshint",
+		"SublimeLinter-phpcs",
+		"SublimeMozcInput",
+		"SummitLinter",
+		"Tag",
+		"Theme - Afterglow",
+		"ToggleMinimapOnScroll",
+		"Tomorrow Color Schemes"
+	],
+	"repositories":
+	[
+		"https://github.com/yasuyuky/SublimeMozcInput"
+	]
+}
