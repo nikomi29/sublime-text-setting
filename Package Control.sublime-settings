@@ -1,6 +1,8 @@
 {
 	"in_process_packages":
 	[
+		"OmniMarkupPreviewer",
+		"Emmet"
 	],
 	"installed_dependencies":
 	[
@@ -19,12 +21,13 @@
 		"ConvertToUTF8",
 		"DocBlockr",
 		"Emmet",
+		"Evernote",
 		"HTML5",
 		"HTMLAttributes",
 		"Insert Nums",
 		"JsFormat",
+		"Markdown Preview",
 		"More Layouts",
-		"OmniMarkupPreviewer",
 		"Package Control",
 		"Pretty JSON",
 		"SideBarEnhancements",
@@ -44,6 +47,7 @@
 	],
 	"repositories":
 	[
+		"https://github.com/yasuyuky/SublimeMozcInput",
 		"https://github.com/yasuyuky/SublimeMozcInput"
 	]
 }

@@ -3,12 +3,11 @@
 	"color_scheme": "Packages/User/Afterglow-monokai (SL).tmTheme",
 	"font-size": 11.0,
 	"font_face": "Ricty",
-	"font_size": 11,
+	"font_size": 9,
 	"ignored_packages":
 	[
-		"Emmet",
 		"Vintage",
-		"SideBarEnhancements"
+		"SideBarEnhancements",
 	],
 	"sidebar_row_padding_Medium": true,
 	"sidebar_row_padding_large": true,

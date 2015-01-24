@@ -1,0 +1,13 @@
+{
+  "disabled_keymap_actions": "expand_abbreviation_by_tab",
+
+  "snippets": {
+    "variables": { "lang": "ja"},
+    "html": {
+      "profile": "html",
+      "snippets": {
+        "aa": "aiueoaiueo",
+        }
+      }
+  }
+}
